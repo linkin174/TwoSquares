@@ -16,26 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ixd-d7-y6y">
-                                <rect key="frame" x="20" y="44" width="388" height="414"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                            </view>
                             <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wtd-4y-jql">
-                                <rect key="frame" x="20" y="478" width="388" height="414"/>
+                                <rect key="frame" x="16" y="476" width="396" height="400"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ixd-d7-y6y">
+                                <rect key="frame" x="16" y="60" width="396" height="400"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Ixd-d7-y6y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Bgp-LR-0R0"/>
-                            <constraint firstItem="wtd-4y-jql" firstAttribute="height" secondItem="Ixd-d7-y6y" secondAttribute="height" id="Iaw-p2-Fae"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wtd-4y-jql" secondAttribute="trailing" constant="20" id="JMp-NV-4Rf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wtd-4y-jql" secondAttribute="bottom" id="OVt-xP-eMq"/>
-                            <constraint firstItem="Ixd-d7-y6y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Tue-HU-teZ"/>
-                            <constraint firstItem="Ixd-d7-y6y" firstAttribute="width" secondItem="wtd-4y-jql" secondAttribute="width" id="oQS-Py-Dpm"/>
-                            <constraint firstItem="wtd-4y-jql" firstAttribute="leading" secondItem="Ixd-d7-y6y" secondAttribute="leading" id="sDp-0O-Vqh"/>
-                            <constraint firstItem="wtd-4y-jql" firstAttribute="top" secondItem="Ixd-d7-y6y" secondAttribute="bottom" constant="20" id="x3l-Ec-Vye"/>
+                            <constraint firstItem="wtd-4y-jql" firstAttribute="height" secondItem="Ixd-d7-y6y" secondAttribute="height" id="2F2-My-Bb9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wtd-4y-jql" secondAttribute="trailing" constant="16" id="2QC-MR-2sY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ixd-d7-y6y" secondAttribute="trailing" constant="16" id="43E-Ma-Hrz"/>
+                            <constraint firstItem="wtd-4y-jql" firstAttribute="top" secondItem="Ixd-d7-y6y" secondAttribute="bottom" constant="16" id="6lh-3i-h3s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wtd-4y-jql" secondAttribute="bottom" constant="16" id="bMY-0c-AKI"/>
+                            <constraint firstItem="Ixd-d7-y6y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="d6d-yr-GL1"/>
+                            <constraint firstItem="wtd-4y-jql" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="n0l-Tf-TRM"/>
+                            <constraint firstItem="Ixd-d7-y6y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="r2v-bm-Pe6"/>
                         </constraints>
                     </view>
                     <connections>
@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.46153846153846" y="97.393364928909946"/>
+            <point key="canvasLocation" x="18.22429906542056" y="96.54427645788337"/>
         </scene>
     </scenes>
     <resources>
