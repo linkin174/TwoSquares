@@ -33,12 +33,15 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wtd-4y-jql" secondAttribute="trailing" constant="20" id="JMp-NV-4Rf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wtd-4y-jql" secondAttribute="bottom" id="OVt-xP-eMq"/>
                             <constraint firstItem="Ixd-d7-y6y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Tue-HU-teZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ixd-d7-y6y" secondAttribute="trailing" constant="20" id="jFM-lA-6kz"/>
                             <constraint firstItem="Ixd-d7-y6y" firstAttribute="width" secondItem="wtd-4y-jql" secondAttribute="width" id="oQS-Py-Dpm"/>
-                            <constraint firstItem="wtd-4y-jql" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sDp-0O-Vqh"/>
+                            <constraint firstItem="wtd-4y-jql" firstAttribute="leading" secondItem="Ixd-d7-y6y" secondAttribute="leading" id="sDp-0O-Vqh"/>
                             <constraint firstItem="wtd-4y-jql" firstAttribute="top" secondItem="Ixd-d7-y6y" secondAttribute="bottom" constant="20" id="x3l-Ec-Vye"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenSquare" destination="Ixd-d7-y6y" id="xTJ-X1-6mw"/>
+                        <outlet property="redSquare" destination="wtd-4y-jql" id="PWe-sW-JPY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

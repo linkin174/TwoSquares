@@ -8,7 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var greenSquare: UIView!
+    @IBOutlet weak var redSquare: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
