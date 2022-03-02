@@ -8,14 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var greenSquare: UIView!
-    @IBOutlet weak var redSquare: UIView!
-    
+    @IBOutlet var greenSquare: UIView!
+    @IBOutlet var redSquare: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        greenSquare.layer.cornerRadius = 20
+        redSquare.layer.cornerRadius = 20
     }
-
-
 }
-
